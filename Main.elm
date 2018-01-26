@@ -95,6 +95,7 @@ stylesheet env =
             [ Color.background <| rgb 180 180 180 ]
         , style InfoBox
             [ Border.all 3
+            , Font.size <| env.height * 0.025
             , Color.background <| rgb 255 255 255
             , Color.border <| rgb 0 0 0
             , Color.text <| rgb 0 0 0
